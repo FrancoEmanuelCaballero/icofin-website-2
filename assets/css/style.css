@@ -635,7 +635,7 @@ section {
 
 .features .nav-link {
   border: 1px solid #d4d6df;
-  padding: 15px;
+  padding: 15px 25px;
   transition: 0.3s;
   color: #ffecde;
   border-radius: 0;
@@ -645,15 +645,11 @@ section {
   background: #517286;
 }
 
-.features .nav-link img {
-  width: 50px;
-  padding-right: 15px;
-}
-
 .features .nav-link h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0;
+  padding-left: 20px;
 }
 
 .features .nav-link:hover {
@@ -693,6 +689,13 @@ section {
   font-size: 26px;
 }
 
+.features .tab-pane h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
 .features .tab-pane ul {
   list-style: none;
   padding: 0;
@@ -700,6 +703,7 @@ section {
 
 .features .tab-pane ul li {
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 .features .tab-pane ul i {
@@ -710,6 +714,12 @@ section {
 
 .features .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+.feature-img {
+  background: url("../img/feature-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*--------------------------------------------------------------
